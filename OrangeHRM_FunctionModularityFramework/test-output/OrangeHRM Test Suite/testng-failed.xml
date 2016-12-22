@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OrangeHRM Test Suite]">
+  <test name="Regression Test(failed)">
+    <classes>
+      <class name="com.orangehrm.tests.NewEmployeeRegistrationTest">
+        <methods>
+          <include name="empreg_init"/>
+          <include name="empreg_end"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.NewEmployeeRegistrationTest -->
+      <class name="com.orangehrm.tests.AdminLoginTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launcApp"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.AdminLoginTest -->
+      <class name="com.orangehrm.tests.NewUserRegTest">
+        <methods>
+          <include name="userReg_end"/>
+          <include name="userReg_init"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.NewUserRegTest -->
+      <class name="com.orangehrm.tests.EmployeeLogiinTest">
+        <methods>
+          <include name="empLoginTest"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.EmployeeLogiinTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Test Suite] -->
